@@ -1,0 +1,152 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    color: gray;
+    background-color: aliceblue;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+header, nav, footer, section, article, div {
+    box-sizing: border-box;
+}
+
+
+/* 
+*
+*
+* Header
+*
+*/
+
+.header {
+    background-color: dodgerblue;
+}
+
+.header__inner {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header__logo {
+    margin-right: 1em;
+    vertical-align: top;
+    margin-top: 12px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.header__title {
+    float: right;
+    font: 1.8em roboto Helvetica, Arial, sans-serif;
+    margin: 0.5em 0.25em;
+    color: #fcf9f9;
+    text-transform: uppercase;
+}
+
+.header__inner h1 span {
+    display: block;
+    text-align: right;
+    font: normal 10px roboto Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+}
+
+.header__inner a {
+    font: normal 20px roboto;
+    margin-top: -12px;
+    text-transform: uppercase;
+}
+
+.front__image {
+    width: 100%;
+
+}
+
+.landing__image {
+    position: relative;
+    width: 100%;
+    height: 330px;
+    max-width: 100%;
+}
+
+/* 
+*
+* Content
+*
+*/
+
+.content {
+    background-color: transparent;
+    border-right: 0 solid rgb(247, 246, 248);
+    box-shadow: -18px -18px 18px rgb(229, 239, 248);
+}
+
+
+/* 
+*
+* Catalogue
+*
+*/
+
+header h2 {
+    padding: 2rem 1rem;
+    font: bold 12px roboto;
+    text-transform: uppercase;
+}
+
+.catalogue img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    margin-right: 10px; 
+}
+
+#catalogue1 h2, #catalogue2 h2, #catalogue3 h2 {
+    text-decoration: none;
+    text-align: center;
+    font: 1.3em roboto;
+}
+
+#catalogue1 h2 a:hover, #catalogue2 h2 a:hover, #catalogue3 h2 a:hover {
+    text-decoration: none;
+
+}
+
+.tool__tip .tooltip__text, .tool__tip .tooltip__text, .tool__tip .tooltip__text {
+    visibility: hidden;
+    width: 100%;
+    background-color: rgb(212, 245, 255);
+    color: rgb(82, 80, 80);
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+
+#catalogue1:hover .tooltip__text, #catalogue2:hover .tooltip__text, #catalogue3:hover .tooltip__text {
+    visibility: visible;
+}
+
+/* 
+*
+*
+* Footer
+*
+*/
+
+.footer {
+    background-color: #212121;
+    text-align: center;
+}

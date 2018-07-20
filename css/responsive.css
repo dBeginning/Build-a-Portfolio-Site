@@ -1,0 +1,148 @@
+main {
+    width: 100%;
+}
+
+@media screen and (max-width: 150px){
+    .header__title {
+        font-size: 10em;
+    }
+
+    .header__logo {
+        border-radius: 50%;
+        width: 100%;
+    }
+
+    header h2 {
+        font-size: 0.5em;
+        padding: 0;
+    }
+
+    .catalogue {
+        display: block;
+    }
+
+    div.catalogue.row {
+        margin-right: 0;
+    }
+
+    #catalogue1, #catalogue2, #catalogue3 {
+        padding: 0;
+        margin: 0;
+    }
+
+    #catalogue1 h2, #catalogue2 h2, #catalogue3 h2 {
+        text-align: left;
+        display: flex;
+        flex-wrap: wrap;
+        font-size: 1em;
+    }
+}
+
+
+@media screen and (max-width: 226px){
+    .header__title {
+        font: bold 0.5em roboto;
+        margin: 0.5em 0.25em;
+        color: #fcf9f9;
+        text-transform: uppercase;
+    }
+
+    .catalogue {
+        display: block;
+    }
+
+    figure {
+        font-size:0.003em;
+        margin: 0;
+    }
+
+    a {
+        font-size: 0.3em;
+    }
+
+    .catalogue1 h2, .catalogue2 h2, .catalogue3 h2 {
+        height: 2px;
+    }
+
+}
+
+@media screen and (max-width: 336px) {
+    .catalogue {
+        display: block;
+    }
+
+    figure {
+        font-size: 0.03em;
+        width: 100%;
+    }
+
+    #catalogue1 h2, #catalogue2 h2, #catalogue3 h2 {
+        margin-left: 2em;
+        width: 100%;
+        text-align: left;
+        vertical-align: top;
+    }
+
+    #catalogue1 h2 a, #catalogue2 h2 a, #catalogue3 h2 a {
+        font-size: 0.6em;
+    }
+}
+
+@media screen and (max-width: 549px) {
+    .header__inner {
+        display: block;
+        text-align: center;
+    }
+    .header__title {
+        float: none;
+        text-align: center;
+    }
+    .header__inner h1 span {
+        text-align: center;
+        font: normal 10px roboto;
+        text-transform: uppercase;
+    }
+
+    .header__logo {
+        margin: auto;
+        vertical-align: middle;
+    }
+
+    .catalogue {
+        width: 100%;
+    }
+
+    .catalogue img {
+        margin: auto;
+    }
+
+    #catalogue1, #catalogue2, #catalogue3 {
+        width: 50%;
+        margin: auto;
+    }
+
+    #catalogue1 h2, #catalogue2 h2, #catalogue3 h2 {
+        margin-left: 2em;
+        font-size: 1.3em;
+    }
+
+
+    figure {
+        font-size: 0.5em;
+        margin: 0;
+        margin-left: 5em;
+    }
+
+    section#catalogue__section img:first-of-type {
+        margin-left: 2em;
+    }
+
+    
+}
+
+@media screen and (min-width: 550px){
+    #catalogue1, #catalogue2, #catalogue3 {
+        width: 50%;
+        margin: auto;
+    }
+}
